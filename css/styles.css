@@ -281,6 +281,32 @@ img {
 
 .team-role {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link {
+    color: var(--cloud);
+    background-color: var(--iris);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    transition: background-color 0.3s;
+}
+
+.social-link:hover {
+    background-color: var(--green);
+    color: var(--cloud);
+}
+
+.social-icon {
+    fill: currentColor;
 }
 
 /* #portfolio 4 */
@@ -313,6 +339,12 @@ img {
     padding: 100px 0
 }
 
+.footer .container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
+}
+
 .logo-footer {
     color: var(--iris);
     margin-bottom: 16px;
@@ -326,4 +358,17 @@ img {
 
 .footer-text {
     width: 264px;
+}
+
+.footer-social-content {
+    display: inline-block;
+}
+
+.social-title {
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.footer .social-link {
+    padding: 8px;
 }
