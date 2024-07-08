@@ -353,7 +353,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-    background-color: var(--green);
+    background-color: var(--ocean);
 }
 
 .social-icon {
@@ -457,4 +457,9 @@ img {
 
 .footer .social-icons {
     gap: 16px;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+    background-color: var(--green);
 }
