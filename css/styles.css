@@ -219,7 +219,7 @@ img {
 }
 
 /* #hero 1 */
-.hero {
+.hero .container {
     background: var(--navy-blue);
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
